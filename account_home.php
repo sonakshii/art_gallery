@@ -31,6 +31,5 @@ else if($user_type == 'Admin'){
     </style>
 </head>
 <body>
-    <img class="welc"src="pictures/welcome_user.jpg">
 </body>
 </html>

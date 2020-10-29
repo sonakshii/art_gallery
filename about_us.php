@@ -204,10 +204,10 @@ include("includes/head.php"); ?>
           <h2 class="Original_1">Original </h2>
           <h2 class="Artworks_1">Artworks </h2>
   </div>
-  <div class="border2">
+  <div class="border2">0
 <p class="text1" >Founded this year, June 2020, ART SHELL Original Artworks Gallery, located in the Ajay Kumar Garg Engineering College, has quickly become one of the most famous modern art partners.
 <br><br>ART+SHELL's curated exhibitions provide audiences with an opportunity to experience different approaches and execution styles of art. The artists, both local and international,
- are often provided the opportunity to exhibit the work they have created at ART+BAY at the end of their residency. ART+BAY also provides qualified art consultation services for its 
+ are often provided the opportunity to exhibit the work they have created at ART+SHELL at the end of their residency. ART+SHELL also provides qualified art consultation services for its 
 discerning collectors, building on and enhancing existing collections, as well as helping establish new collections.
 <br><br>Through these initiatives, ART+SHELL maintains its commitment to dynamically engage and add value to the local and international art communities.
 </p>

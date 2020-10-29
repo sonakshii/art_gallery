@@ -105,7 +105,7 @@
           position: absolute;
           left: -10px;
           top: -15px;
-          width: 1249px;
+          width: 1501px;
           height: 65px;
           z-index: 5;
         }
@@ -242,7 +242,7 @@
 .dpdown3 {
     position: inherit;
 
-      left: 675px;
+      left: 300px;
       font-family: "Yu Gothic UI Light";
       color: #f2f2f2;
       font-size: 14.5px;
@@ -253,7 +253,7 @@
 .dpdown-content3 {
     display: none;
     position: absolute;
-    right: 720px;
+    right: 900px;
     background-color: #f9f9f9;
     font-size: 13px;
     min-width: 160px;
@@ -280,17 +280,6 @@
 </head>
 <body>
 
-    <div class="dpdown">
-  <button class="dpbtn">Explore </button>
-  <div class="dpdown-content" style="left:0;">
-                   <a href="artworks.php">Artworks</a>
-                    <a href="artist.php">Artists</a>
-                     <a href="artists_guide.php">Art Guide</a>
-                     ------------------------------------<br>
-                    <a href="about_us.php"> About ART+BAY</a>
-  </div>
-</div>
-
     <?php
 $id = $_SESSION['USER_ID'];
       $query_category="SELECT user_fname,user_mname,user_lname FROM user WHERE user_id = '$id'";
@@ -302,7 +291,7 @@ $id = $_SESSION['USER_ID'];
                  '<div class="dropdown">'.
                     '<button onclick="myFunction()" class="dropbtn">' .$row['user_fname'].' '.$row['user_mname'].' '.$row['user_lname']. ''.''. '&#9660;'. '</button>'.'
                        <div id="myDropdown" class="dropdown-content">
-                        <a href="account_home.php">My ART+BAY</a>
+                        <a href="home.php">My ART+SHELL</a>
                          <a href="profile.php">Account Profile</a>
                             <a href="logout.php">Log Out</a>
 
@@ -349,8 +338,6 @@ $id = $_SESSION['USER_ID'];
 
               <li class="li"><a class="a2" href="orders.php">MY ORDERS</a></li>
 
-              <li class="li"> <a class="a2" href="my_collection.php">MY COLLECTIONS</a></li>
-
 
          </ul>
 
@@ -359,9 +346,9 @@ $id = $_SESSION['USER_ID'];
 
 
             <h1 class="ART">ART </h1>
-            <h1 class="_BAY">+BAY </h1>
+            <h1 class="_BAY">+SHELL</h1>
 
-            <h2 class="Albay_">Albay </h2>
+            <h2 class="Albay_">AKTU</h2>
             <h2 class="Original_">Original </h2>
             <h2 class="Artworks_">Artworks </h2>
 

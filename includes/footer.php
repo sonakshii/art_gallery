@@ -73,7 +73,7 @@ body{
 
 
 <div class = "footer text">
-Copy Right 2017 ART+BAY<br> All Right Reserved.
+Copy Right 2017 ART+SHELL (AKTU)<br> All Right Reserved.
 </div>
 
 </body>

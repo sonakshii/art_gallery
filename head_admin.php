@@ -220,9 +220,9 @@ include("includes/connection.php"); ?>
 <body>
 
   <h1 class="ART">ART </h1>
-  <h1 class="_BAY">+BAY </h1>
+  <h1 class="_BAY">+SHELL </h1>
 
-  <h2 class="Albay_">Albay </h2>
+  <h2 class="Albay_">AKTU</h2>
   <h2 class="Original_">Original </h2>
   <h2 class="Artworks_">Artworks </h2>
 

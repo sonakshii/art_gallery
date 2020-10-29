@@ -160,7 +160,7 @@ include("includes/head.php");
         .dont{
           font-size: 17px;
           font-family: "Yu Gothic UI Light";
-          color: #f2f2f2;
+          color: black;
           position:relative;
           left: 520px;
           top:170px;

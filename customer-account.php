@@ -105,7 +105,7 @@
           position: absolute;
           left: -10px;
           top: -15px;
-          width: 1249px;
+          width: 1501px;
           height: 65px;
         }
 
@@ -246,7 +246,7 @@
                     <a href="artist.php">Artists</a>
                      <a href="customers_guide.php">Art Guide</a>
                      ------------------------------------<br>
-                    <a href="about_us.php"> About ART+BAY</a>
+                    <a href="about_us.php"> About ART+SHELL</a>
   </div>
 </div>
 
@@ -261,7 +261,7 @@ $id = $_SESSION['USER_ID'];
                  '<div class="dropdown">'.
                     '<button onclick="myFunction()" class="dropbtn">' .$row['user_fname'].' '.$row['user_mname'].' '.$row['user_lname']. ''.''. '&#9660;'. '</button>'.'
                        <div id="myDropdown" class="dropdown-content">
-                        <a href="customer-account.php">My ART+BAY</a>
+                        <a href="home.php">My ART+BAY</a>
                          <a href="profile.php">Account Profile</a>
                             <a href="logout.php">Log Out</a>
 
@@ -297,11 +297,7 @@ $id = $_SESSION['USER_ID'];
 
 
               <li class="li"><a class="a2" href="orders(planb).php">MY ORDERS</a></li>
-
-
-
-              <li class="li"> <a class="a2" href="my_collection.php">MY COLLECTIONS</a></li>
-              </p>
+            </p>
 
          </ul>
 
@@ -310,9 +306,9 @@ $id = $_SESSION['USER_ID'];
 
 
             <h1 class="ART">ART </h1>
-            <h1 class="_BAY">+BAY </h1>
+            <h1 class="_BAY">+SHELL </h1>
 
-            <h2 class="Albay_">Albay </h2>
+            <h2 class="Albay_">AKTU</h2>
             <h2 class="Original_">Original </h2>
             <h2 class="Artworks_">Artworks </h2>
 

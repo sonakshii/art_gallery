@@ -5,33 +5,7 @@
  <head>
  <title>Artworks</title>
  <style>
-select {
-           border-radius: 5px;
-           box-shadow: 1px 1.732px 5px 0px rgb( 55, 52, 52 );
-          border: 1px solid steelblue;
-          background-color: white;
-          font-family: "Yu Gothic UI Light";
-          position: relative;
-          left: 200px;
-          top: 80px;
-          width: 250px;
-          height: 40px;
-        }
 
-       input{
-           border-radius: 5px;
-           box-shadow: 1px 1.732px 5px 0px rgb( 55, 52, 52 );
-           border: 1px solid rgb(33,33,33);
-          font-weight: bold;
-          background-color: #234;
-          font-family: "Yu Gothic UI Light";
-          color: white;
-          position: relative;
-          left: 200px;
-          top: 80px;
-          width: 150px;
-          height: 40px;
-       }
 
         .photo {
             position: relative ;
@@ -83,38 +57,7 @@ select {
               </head>
               <body>
 
-                <form action="searchart.php" method="POST">
-                <select id="Category" name="Category">
-
-                 <option value="">CATEGORY</option>
-                 <option value="Painting">Paintings</option>
-                 <option value="Sculpture">Sculpture</option>
-                 <option value="Photography">Photography</option>
-                 <option value="Drawing">Drawings</option>
-
-                  </select>
-
-                  <select id="medium"  name="Medium">
-
-                 <option value="">MEDIUM</option>
-                 <option value="Sculpture">Sculpture</option>
-                 <option value="Photography">Photography</option>
-                 <option value="Drawing">Drawings</option>
-
-                  </select>
-                  <select id="Price" name="Price">
-
-                  <option value="">PRICE</option>
-                 <option value="5001">less than 5,000 pesos</option>
-                 <option value="10001">less than 10,000 pesos</option>
-                 <option value="50001">less than 50,000 pesos</option>
-                 <option value="500001">less than 500,000 pesos</option>
-
-                  </select>
-
-                 <input type="submit" name="submit" value="SEARCH">
-
-                  </form>
+             
 
 
         <?php

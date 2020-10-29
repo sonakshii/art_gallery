@@ -99,7 +99,7 @@ include("includes/connection.php"); ?>
           left:-10px;
           top: -15px;
           width: 1502px;
-          height: 65px;
+          height: 70px;
           z-index: 2;
         }
 
@@ -310,10 +310,10 @@ include("includes/connection.php"); ?>
 <body >
 
   <h1 class="ART">ART </h1>
-  <h1 class="_BAY">+BAY </h1>
+  <h1 class="_BAY">+SHELL </h1>
 
-  <h2 class="Albay_">Albay </h2>
-  <h2 class="Original_">Original </h2>
+  <h2 class="Albay_">AKTU</h2>
+  <h2 class="Original_">Original</h2>
   <h2 class="Artworks_">Artworks </h2>
 
   <ul id="ul">
@@ -332,15 +332,6 @@ include("includes/connection.php"); ?>
       </li></li>
 
 
-      <li id="li"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li id="li"><br>
-            <div class="dpdown">
-                <span>ART GUIDE</span>
-                      <div class="dpdown-content">
-                          <a href="artists_guide.php">Artists' Guide</a>
-                          <a href="customers_guide.php">Customers' Guide</a>
-                      </div>
-            </div>
-      </li></li>
 
       <li id="li">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li id="li"><a id="a2" href="about_us.php">ABOUT US</a></li></li>
 
@@ -363,8 +354,6 @@ include("includes/connection.php"); ?>
                        </div>
                   </div>';
             }
-
-
 }
 else{
  include("portal.php");
